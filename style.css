@@ -1,0 +1,36 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: aliceblue;
+    background: #000e4bc9;
+}
+.mycard{
+    min-width: 30%;
+    /* max-width: 90%; */
+    min-height: 80%;
+    /* border: 2px  solid red; */
+    background: #001431;
+    border-radius: 50px;
+    padding: 30px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px #0000002c;
+    transition: .5s ease;
+}
+.mycard:hover, .mycard>h6{
+    background: rgb(1, 24, 59);
+    text-shadow: 0 1px 0px #fff;
+}
+
+
+.inputfiled{
+    min-width: 100% ;
+    border-radius: 50px;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    padding: 05px 50px;
+}
